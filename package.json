@@ -2,9 +2,20 @@
   "name": "feedframe",
   "version": "0.1.0",
   "description": "A serverless platform to aggregate data into a single feed or dashboard view.",
-  "keywords": ["dashboard", "feed", "node", "react", "serverless"],
+  "keywords": [
+    "dashboard",
+    "feed",
+    "node",
+    "react",
+    "serverless"
+  ],
   "author": "Brian Espinosa <b@bje.co>",
-  "engines": {"node": ">=8.11.1"},
+  "repository": "https://github.com/feedframe/feedframe.git",
+  "homepage": "https://feedframe.app",
+  "private": true,
+  "engines": {
+    "node": ">=8.11.1"
+  },
   "main": "dist/index.js",
   "workspaces": {
     "packages": [
@@ -12,7 +23,28 @@
     ],
     "nohoist": []
   },
-  "repository": "https://github.com/feedframe/feedframe.git",
-  "homepage": "https://feedframe.app",
+  "dependencies": {
+    "normalize.css": "^8.0.1",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0"
+  },
+  "devDependencies": {
+    "prettier": "1.15.2",
+    "react-scripts": "2.1.2"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
   "license": "MIT"
 }
