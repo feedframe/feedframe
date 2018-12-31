@@ -25,11 +25,13 @@
   },
   "dependencies": {
     "normalize.css": "^8.0.1",
-    "react": "^16.7.0",
-    "react-dom": "^16.7.0"
+    "react": "16.7.0-alpha.2",
+    "react-dom": "16.7.0-alpha.2"
   },
   "devDependencies": {
+    "classnames": "2.2.6",
     "prettier": "1.15.2",
+    "prop-types": "15.6.2",
     "react-scripts": "2.1.2"
   },
   "eslintConfig": {

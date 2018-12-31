@@ -1,29 +1,68 @@
-import React, { Component } from 'react';
-import logo from '../../logo.svg';
+import React from 'react';
+import Feed from '../Feed';
+import Panel from '../Panel';
 
-import styles from './App.module.css';
+// import styles from './App.module.css';
 
-class App extends Component {
-  render() {
-    return (
-      <div className={styles.root}>
-        <header className={styles.header}>
-          <img src={logo} className={styles.logo} alt='logo' />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className={styles.link}
-            href='https://reactjs.org'
-            target='_blank'
-            rel='noopener noreferrer'
-          >
-            Learn React
-          </a>
-        </header>
-      </div>
-    );
-  }
-}
+const panels = [
+  {
+    title: 'One',
+    content: 'Content',
+  },
+  {
+    title: 'Two',
+    content: 'Content',
+  },
+  {
+    title: 'Three',
+    content: 'Content',
+  },
+  {
+    title: 'Four',
+    content: 'Content',
+  },
+  {
+    title: 'Five',
+    content: 'Content',
+  },
+  {
+    title: 'Six',
+    content: 'Content',
+  },
+  {
+    title: 'Seven',
+    content: 'Content',
+  },
+  {
+    title: 'Eight',
+    content: 'Content',
+  },
+  {
+    title: 'Nine',
+    content: 'Content',
+  },
+  {
+    title: 'Ten',
+    content: 'Content',
+  },
+  {
+    title: 'Eleven',
+    content: 'Content',
+  },
+  {
+    title: 'Twelve',
+    content: 'Content',
+  },
+];
+
+const App = () => {
+  return (
+    <Feed type='dashboard'>
+      {panels.map((panel) => (
+        <Panel content={panel.content} key={panel.title} title={panel.title} />
+      ))}
+    </Feed>
+  );
+};
 
 export default App;

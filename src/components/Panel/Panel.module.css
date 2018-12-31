@@ -1,0 +1,10 @@
+.base {
+  background: red;
+  border-radius: 0.25em;
+  overflow: hidden;
+}
+
+.title {
+  background: blue;
+  margin-top: 0;
+}

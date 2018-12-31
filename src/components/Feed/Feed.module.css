@@ -1,0 +1,11 @@
+.base {
+  padding: 1rem;
+}
+
+.feed {
+  background: yellow;
+}
+
+.dashboard {
+  background: green;
+}
