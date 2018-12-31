@@ -1,0 +1,12 @@
+{
+  "name": "feedframe",
+  "version": "0.1.0",
+  "description": "A serverless platform to aggregate data into a single feed or dashboard view.",
+  "keywords": ["dashboard", "feed", "serverless"],
+  "author": "Brian Espinosa <b@bje.co>",
+  "engines": {"node": ">=8.11.1"},
+  "main": "index.js",
+  "repository": "https://github.com/feedframe/feedframe.git",
+  "homepage": "https://feedframe.app",
+  "license": "MIT"
+}
