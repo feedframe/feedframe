@@ -5,7 +5,13 @@
   "keywords": ["dashboard", "feed", "node", "react", "serverless"],
   "author": "Brian Espinosa <b@bje.co>",
   "engines": {"node": ">=8.11.1"},
-  "main": "index.js",
+  "main": "dist/index.js",
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ],
+    "nohoist": []
+  },
   "repository": "https://github.com/feedframe/feedframe.git",
   "homepage": "https://feedframe.app",
   "license": "MIT"
