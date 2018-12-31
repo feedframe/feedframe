@@ -1,5 +1,7 @@
 .base {
+  height: calc(100% - 2rem);
   padding: 1rem;
+  overflow: scroll;
 }
 
 .feed {
